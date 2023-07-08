@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using VtopAcademy.accounts;
 using VtopAcademy.exams;
+using VtopAcademy.kclasses;
 using VtopAcademy.schools;
 
 namespace VtopAcademy
@@ -19,6 +20,7 @@ namespace VtopAcademy
 
         public DbSet<School> Schools { get; set; } = null!;
         public DbSet<Exam> Exams { get; set; } = null!;
+        public DbSet<Kclass> Kclasses { get; set; } = null!;
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
