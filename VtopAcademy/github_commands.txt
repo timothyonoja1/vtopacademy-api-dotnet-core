@@ -1,0 +1,15 @@
+﻿
+cd /Users/macbook/Desktop/NetCoreAPI/VtopAcademy
+
+git init && git symbolic-ref HEAD refs/heads/main
+
+git add .
+
+git commit -m "Add Account Schools"
+
+git remote add origin https://github.com/timothyonoja1/vtopacademy-api-dotnet-core.git
+
+git push -u origin main
+
+git commit -m "Optimized Practice Questions"
+
