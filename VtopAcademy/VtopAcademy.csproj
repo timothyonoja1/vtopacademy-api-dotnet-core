@@ -27,10 +27,12 @@
     <None Remove="schools\" />
     <None Remove="PracticeQuestions\" />
     <None Remove="accounts\" />
+    <None Remove="exams\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="schools\" />
     <Folder Include="PracticeQuestions\" />
     <Folder Include="accounts\" />
+    <Folder Include="exams\" />
   </ItemGroup>
 </Project>
