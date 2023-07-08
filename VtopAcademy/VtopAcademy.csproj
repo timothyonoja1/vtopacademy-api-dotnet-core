@@ -29,6 +29,7 @@
     <None Remove="accounts\" />
     <None Remove="exams\" />
     <None Remove="kclasses\" />
+    <None Remove="subjects\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="schools\" />
@@ -36,5 +37,6 @@
     <Folder Include="accounts\" />
     <Folder Include="exams\" />
     <Folder Include="kclasses\" />
+    <Folder Include="subjects\" />
   </ItemGroup>
 </Project>
