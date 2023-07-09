@@ -28,11 +28,13 @@
     <None Remove="KclassSubjects\" />
     <None Remove="SchoolKclasses\" />
     <None Remove="Topics\" />
+    <None Remove="SubTopics\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="PracticeQuestions\" />
     <Folder Include="KclassSubjects\" />
     <Folder Include="SchoolKclasses\" />
     <Folder Include="Topics\" />
+    <Folder Include="SubTopics\" />
   </ItemGroup>
 </Project>
