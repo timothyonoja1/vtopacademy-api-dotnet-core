@@ -8,6 +8,7 @@ using VtopAcademy.KclassSubjects;
 using VtopAcademy.SchoolKclasses;
 using VtopAcademy.Schools;
 using VtopAcademy.Subjects;
+using VtopAcademy.Topics;
 
 namespace VtopAcademy
 {
@@ -25,6 +26,7 @@ namespace VtopAcademy
         public DbSet<Exam> Exams { get; set; } = null!;
         public DbSet<Kclass> Kclasses { get; set; } = null!;
         public DbSet<Subject> Subjects { get; set; } = null!;
+        public DbSet<Topic> Topics { get; set; } = null!;
 
         public DbSet<SchoolKclass> SchoolKclasses { get; set; } = null!;
         public DbSet<KclassSubject> KclassSubjects { get; set; } = null!;
