@@ -7,11 +7,11 @@ namespace VtopAcademy.Subjects
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class TodoItemsController : ControllerBase
+    public class SubjectsController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
 
-        public TodoItemsController(ApplicationDbContext context)
+        public SubjectsController(ApplicationDbContext context)
         {
             _context = context;
         }

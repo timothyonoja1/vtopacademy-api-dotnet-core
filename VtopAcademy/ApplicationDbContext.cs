@@ -5,6 +5,7 @@ using VtopAcademy.Accounts;
 using VtopAcademy.Exams;
 using VtopAcademy.Kclasses;
 using VtopAcademy.KclassSubjects;
+using VtopAcademy.SchoolKclasses;
 using VtopAcademy.Schools;
 using VtopAcademy.Subjects;
 
@@ -25,6 +26,7 @@ namespace VtopAcademy
         public DbSet<Kclass> Kclasses { get; set; } = null!;
         public DbSet<Subject> Subjects { get; set; } = null!;
 
+        public DbSet<SchoolKclass> SchoolKclasses { get; set; } = null!;
         public DbSet<KclassSubject> KclassSubjects { get; set; } = null!;
 
         protected override void OnModelCreating(ModelBuilder builder)

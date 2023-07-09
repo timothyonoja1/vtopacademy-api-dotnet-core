@@ -11,5 +11,4 @@ git remote add origin https://github.com/timothyonoja1/vtopacademy-api-dotnet-co
 
 git push -u origin main
 
-git commit -m "Optimized Practice Questions"
 
