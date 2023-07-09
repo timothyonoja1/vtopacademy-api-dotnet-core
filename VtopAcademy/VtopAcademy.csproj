@@ -29,6 +29,7 @@
     <None Remove="SchoolKclasses\" />
     <None Remove="Topics\" />
     <None Remove="SubTopics\" />
+    <None Remove="Videos\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="PracticeQuestions\" />
@@ -36,5 +37,6 @@
     <Folder Include="SchoolKclasses\" />
     <Folder Include="Topics\" />
     <Folder Include="SubTopics\" />
+    <Folder Include="Videos\" />
   </ItemGroup>
 </Project>
