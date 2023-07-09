@@ -1,9 +1,9 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Runtime.Serialization;
-using VtopAcademy.schools;
+using VtopAcademy.Schools;
 
-namespace VtopAcademy.subjects
+namespace VtopAcademy.Subjects
 {
     public class Subject
     {
@@ -19,4 +19,3 @@ namespace VtopAcademy.subjects
         public virtual School School { get; set; } = null!;
     }
 }
-

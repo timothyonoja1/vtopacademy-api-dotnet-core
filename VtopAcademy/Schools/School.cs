@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace VtopAcademy.schools
+namespace VtopAcademy.Schools
 {
 	public class School
 	{

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace VtopAcademy.subjects
+namespace VtopAcademy.Subjects
 {
     /// <summary> Data Transfer Object for School. </summary>
     public class SubjectDTO

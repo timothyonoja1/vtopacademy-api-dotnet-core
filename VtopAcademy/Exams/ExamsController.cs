@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace VtopAcademy.exams
+namespace VtopAcademy.Exams
 {
     [Route("api/[controller]")]
     [ApiController]

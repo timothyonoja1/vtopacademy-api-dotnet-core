@@ -1,25 +1,20 @@
 ﻿<Properties StartupConfiguration="{5592B370-5FBC-4891-B871-EB4847211D46}|https">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="VtopAcademy/github_commands.txt">
-    <Files>
-      <File FileName="VtopAcademy/github_commands.txt" Line="16" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="VtopAcademy" expanded="True">
-            <Node name="VtopAcademy" expanded="True">
-              <Node name="github_commands.txt" selected="True" />
-            </Node>
+            <Node name="VtopAcademy" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.VtopAcademy PreferredExecutionTarget="/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
 </Properties>

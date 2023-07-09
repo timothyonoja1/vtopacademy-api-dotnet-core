@@ -1,20 +1,22 @@
-﻿
-using System;
+﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Runtime.Serialization;
+using VtopAcademy.Schools;
 
-namespace VtopAcademy.kclasses
+namespace VtopAcademy.Exams
 {
-    /// <summary> Data Transfer Object for Kclass. </summary>
-    public class KclassDTO
+    /// <summary> Data Transfer Object for Exam. </summary>
+	public class ExamDTO
     {
         /// <summary> SchoolID. Default value is 0. </summary>
-        [Display(Name = "Id")]
-        public long KclassId { get; set; }
+        [Display(Name = "ExamID")]
+        public long ExamID { get; set; }
 
         /// <summary> Name </summary>
         [Required]
         [Display(Name = "Name")]
-        public string Name { get; set; }
+        public string Name { get; set; } = null!;
 
         /// <summary> Number </summary>
         [Required]

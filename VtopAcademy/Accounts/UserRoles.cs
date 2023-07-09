@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace VtopAcademy.accounts
+namespace VtopAcademy.Accounts
 {
 	public static class UserRoles
 	{

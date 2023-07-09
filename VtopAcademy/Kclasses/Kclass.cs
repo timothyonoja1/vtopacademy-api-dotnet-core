@@ -2,9 +2,9 @@
 using System;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Runtime.Serialization;
-using VtopAcademy.schools;
+using VtopAcademy.Schools;
 
-namespace VtopAcademy.kclasses
+namespace VtopAcademy.Kclasses
 {
     public class Kclass
     {

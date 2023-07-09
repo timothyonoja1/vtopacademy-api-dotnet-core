@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.AspNetCore.Identity;
 
-namespace VtopAcademy.accounts
+namespace VtopAcademy.Accounts
 {
 	public class ApplicationUser : IdentityUser
 	{

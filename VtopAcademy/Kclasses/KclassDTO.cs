@@ -1,13 +1,15 @@
-﻿using System;
+﻿
+using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace VtopAcademy.schools
+namespace VtopAcademy.Kclasses
 {
-	public class SchoolDTO
-	{
+    /// <summary> Data Transfer Object for Kclass. </summary>
+    public class KclassDTO
+    {
         /// <summary> SchoolID. Default value is 0. </summary>
-        [Display(Name = "SchoolID")]
-        public long SchoolID { get; set; }
+        [Display(Name = "Id")]
+        public long KclassId { get; set; }
 
         /// <summary> Name </summary>
         [Required]
@@ -19,6 +21,10 @@ namespace VtopAcademy.schools
         [Display(Name = "Number")]
         public int Number { get; set; }
 
+        /// <summary> SchoolID </summary>
+        [Required]
+        [Display(Name = "SchoolID")]
+        public long SchoolID { get; set; }
     }
 }
 

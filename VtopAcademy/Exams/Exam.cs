@@ -2,9 +2,9 @@
 using System;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Runtime.Serialization;
-using VtopAcademy.schools;
+using VtopAcademy.Schools;
 
-namespace VtopAcademy.exams
+namespace VtopAcademy.Exams
 {
     public class Exam
     {

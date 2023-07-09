@@ -2,8 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace VtopAcademy.schools
-{
+namespace VtopAcademy.Schools
+{ 
     [Route("api/[controller]")] 
     [ApiController]
     public class SchoolsController : ControllerBase

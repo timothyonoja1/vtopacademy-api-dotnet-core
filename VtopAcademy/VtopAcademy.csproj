@@ -24,19 +24,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="schools\" />
     <None Remove="PracticeQuestions\" />
-    <None Remove="accounts\" />
-    <None Remove="exams\" />
-    <None Remove="kclasses\" />
-    <None Remove="subjects\" />
+    <None Remove="KclassSubjects\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="schools\" />
     <Folder Include="PracticeQuestions\" />
-    <Folder Include="accounts\" />
-    <Folder Include="exams\" />
-    <Folder Include="kclasses\" />
-    <Folder Include="subjects\" />
+    <Folder Include="KclassSubjects\" />
   </ItemGroup>
 </Project>
